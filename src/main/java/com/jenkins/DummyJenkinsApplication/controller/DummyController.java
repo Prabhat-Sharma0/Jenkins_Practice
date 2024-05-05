@@ -13,4 +13,9 @@ public class DummyController {
         return "Hi the application is up!!!!!!!";
     }
 
+    @GetMapping("owner")
+    public String getOwnerName() {
+        return "Owner is: Prabhat Sharma";
+    }
+
 }
